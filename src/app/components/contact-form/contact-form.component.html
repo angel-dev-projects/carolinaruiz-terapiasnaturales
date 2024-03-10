@@ -1,0 +1,36 @@
+<div
+  id="background_image"
+  class="min-vh-100 light-grey-background py-5 px-4 d-flex flex-column justify-content-center align-items-center"
+>
+  <div
+    id="contacto"
+    class="container d-flex flex-column align-items-center text-center justify-content-center text-white"
+  >
+    <h1 class="mb-3 text-shadow">CONTACTO</h1>
+    <p class="text-shadow">Llámame: <strong>+34 690 25 43 25</strong></p>
+    <p class="mb-4 text-shadow">
+      O contáctame rellenando el formulario de abajo e intentaré responderte lo
+      antes posible
+    </p>
+  </div>
+  <div class="form-container shadow bg-white rounded p-5 m-5">
+    <form action="https://formspree.io/f/xrgnknde" method="POST">
+      <div class="mb-4">
+        <label for="name"> Tu nombre: </label>
+        <input type="text" id="name" name="name" placeholder="Nombre" />
+      </div>
+      <div class="mb-4">
+        <label for="email"> Tu email: </label>
+        <input type="email" id="email" name="email" placeholder="Email" />
+      </div>
+      <div class="mb-4">
+        <label for="message"> Escribe aquí tu mensaje: </label>
+        <textarea id="message" name="message" placeholder="Mensaje"></textarea>
+      </div>
+
+      <div class="text-center">
+        <button type="submit" class="btn">ENVIAR</button>
+      </div>
+    </form>
+  </div>
+</div>

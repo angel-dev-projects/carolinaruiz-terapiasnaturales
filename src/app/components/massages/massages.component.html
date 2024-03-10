@@ -1,0 +1,13 @@
+<h1 id="massages" class="text-center my-5">MASAJES ANTIESTRÉS Y ENERGÉTICOS</h1>
+
+<div class="row min-vh-100 text-white">
+  @for (massage of massages; track massage.name) {
+  <div
+    class="massage col-md-6 d-flex flex-column justify-content-end p-5"
+    [style.backgroundImage]="'url(' + massage.image + ')'"
+  >
+    <h1 class="text-shadow mb-4">{{ massage.name }}</h1>
+    <h3 class="text-shadow w-75">{{ massage.description }}</h3>
+  </div>
+  }
+</div>

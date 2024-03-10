@@ -1,0 +1,9 @@
+#top_container {
+  background-image: url("../../../assets/imgs/prueba.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+i {
+  font-size: 2rem;
+}

@@ -1,0 +1,28 @@
+#massages {
+  font-size: 3rem;
+}
+
+.massage {
+  background-size: cover;
+  background-position: center;
+  height: 40rem;
+  transition: all 0.5s ease;
+}
+
+.massage:hover {
+  filter: brightness(80%);
+}
+
+.massage:hover h1,
+.massage:hover h3 {
+  transform: scale(1.05);
+}
+
+h1 {
+  font-size: 2.5rem;
+  transition: all 0.5s ease;
+}
+
+h3 {
+  transition: all 0.7s ease;
+}

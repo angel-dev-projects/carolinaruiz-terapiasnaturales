@@ -1,0 +1,20 @@
+<h1 id="servicios" class="text-center my-5">SERVICIOS</h1>
+
+<div class="m-5 row">
+  @for (service of services; track service.name) {
+  <div
+    class="service-card p-3 mb-5 d-flex flex-column align-items-center gap-4 text-center col-md-4 col-sm-6"
+  >
+    <i
+      class="{{ service.icon }}"
+      style="font-size: 3rem; color: rgb(241, 209, 174)"
+    ></i>
+    <h2 class="fw-bold">{{ service.name }}</h2>
+    <p>{{ service.description }}</p>
+    <i
+      class="fa-solid fa-chevron-down"
+      style="font-size: 2rem; color: rgb(241, 209, 174)"
+    ></i>
+  </div>
+  }
+</div>

@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+body,
+html {
+  font-family: "Playfair Display", sans-serif !important;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 15px;
+  background: #fff8e2;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #e3a273;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 15px black;
+}
+
+h1,
+h2 {
+  font-weight: 600 !important;
+}
