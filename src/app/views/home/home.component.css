@@ -16,3 +16,18 @@ i {
 .slogan div {
   font-size: 2.5rem;
 }
+
+.slogan i {
+  font-size: 3rem;
+  color: rgb(241, 209, 174);
+}
+
+@media only screen and (max-width: 600px) {
+  .slogan div {
+    font-size: 1.5rem;
+  }
+
+  .slogan i {
+    font-size: 2rem;
+  }
+}
