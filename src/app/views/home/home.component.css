@@ -1,9 +1,18 @@
 #top_container {
-  background-image: url("../../../assets/imgs/prueba.jpg");
+  background-image: url("../../../assets/imgs/first_image_background.jpg");
   background-size: cover;
   background-position: center;
 }
 
 i {
   font-size: 2rem;
+}
+
+.slogan {
+  background-color: #fff9f2;
+  width: 100%;
+}
+
+.slogan div {
+  font-size: 2.5rem;
 }

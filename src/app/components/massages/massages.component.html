@@ -3,6 +3,8 @@
 <div class="row min-vh-100 text-white">
   @for (massage of massages; track massage.name) {
   <div
+    data-aos="zoom-in-up"
+    data-aos-duration="1000"
     class="massage col-md-6 d-flex flex-column justify-content-end p-5"
     [style.backgroundImage]="'url(' + massage.image + ')'"
   >
